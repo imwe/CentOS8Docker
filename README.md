@@ -7,7 +7,7 @@ Starting with a CentOS 8.1 minimal installation.
 ### Packages
     yum install -y yum-utils device-mapper-persistent-data lvm2
     yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-    yum install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.10-3.2.el7.x86_64.rpm
+    yum install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.13-3.1.el7.x86_64.rpm
     yum install docker-ce
     systemctl enable --now docker
 
